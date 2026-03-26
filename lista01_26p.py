@@ -16,7 +16,7 @@ def mult():
 
     if menor == 0:
         print("dividir por zero NAO SERA TOLERADO!!!!!!")
-        return
+        
 
     if maior % menor == 0:
         print(maior," é multiplo de ",menor)
@@ -25,8 +25,8 @@ def mult():
 
 def main():
     global a,b,maior,menor
-    a = int(input("numero 1: "))
-    b = int(input("numero 2: "))
+    a = int(input("numero 1 "))
+    b = int(input("numero 2 "))
     mult()
 
 if (__name__ == "__main__"):

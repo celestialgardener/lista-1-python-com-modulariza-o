@@ -1,4 +1,8 @@
-#receba o preço atual e a media mensal de vendas do produto  cacule o novo preco sabendo das informações de venda
+#28 receba o preço atual e a media mensal de vendas do produto  cacule o novo preco sabendo das informações de venda
+vm:int=0
+pa:int=0
+pn:int=0
+
 
 def main():
     vm = int(input('qual a media mensal'))

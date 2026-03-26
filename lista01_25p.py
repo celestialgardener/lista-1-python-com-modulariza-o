@@ -1,15 +1,15 @@
 #Receba a hora de início e de final de um jogo (HH,MM), calcular o tempo do jogo em horas e minutos, sabendo que o tempo máximo é menor que 24 horas e pode começar num dia e terminar noutro.
 #meu Deus como que faz isso
 
-hi:int=0
-mi:int=0
-hf:int=0
-mf:int=0
-dt:int=0
-it:int=0
-ft:int=0
-dh:int=0
-dm:int=0
+hi:int=0 #hora inicial
+mi:int=0 #minuto inciia
+hf:int=0 #hora final
+mf:int=0 #minuto final
+dt:int=0 #duração total
+it:int=0 #inicio total
+ft:int=0 #fim totaç
+dh:int=0 #duração horas
+dm:int=0 #duração min
 
 def calc():
     global hi, mi, hf, mf, it, dt
@@ -26,7 +26,7 @@ def calc():
     dh = dt // 60
     dm = dt % 60
 
-    print(f"duraçao do jogo: ",dh," horas e", dm," minutos")
+    print("duraçao do jogo: ",dh," horas e", dm," minutos")
 def main():
     global hi, mi, hf, mf, dt, ft, it
     hi = int(input("Hora de inicio HH: "))

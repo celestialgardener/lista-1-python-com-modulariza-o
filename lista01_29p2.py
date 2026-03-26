@@ -17,7 +17,7 @@ def calc(tipo, valor):
     else:
         print("tipo não existe")
         return
-    print(f"valor corrigido ",nv)
+    print("valor corrigido ",nv)
 
 
 if (__name__ == "__main__"):
